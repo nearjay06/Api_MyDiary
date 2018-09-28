@@ -5,10 +5,13 @@ python:
 
 install:
   - pip install -r requirements.txt
+  - pip install coverage
+  - pip install overalls
 
 script:
+  - coverage run --source=app
   - coverage run -m pytest
-  - coverage report
+  - coverage report -m
 
 after_success:
   - coveralls
