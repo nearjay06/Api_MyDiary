@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/nearjay06/Api_MyDiary.svg?branch=ft-diaryentries-160762213)](https://travis-ci.org/nearjay06/Api_MyDiary)
 
-
-the badge number coverall
 [![Coverage Status](https://coveralls.io/repos/github/nearjay06/Api_MyDiary/badge.svg?branch=ft-diaryentries-160762213)](https://coveralls.io/github/nearjay06/Api_MyDiary?branch=ft-diaryentries-160762213)
 
 1.On Pivotal Tracker, create user stories to setup and test API endpoints that do the following using data structures
