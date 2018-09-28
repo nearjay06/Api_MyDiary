@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nearjay06/Api_MyDiary.svg?branch=master)](https://travis-ci.org/nearjay06/Api_MyDiary)
+[![Build Status](https://travis-ci.org/nearjay06/Api_MyDiary.svg?branch=ft-diaryentries-160762213)](https://travis-ci.org/nearjay06/Api_MyDiary)
 
 
 the badge number coverall
