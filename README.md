@@ -2,21 +2,25 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/nearjay06/Api_MyDiary/badge.svg?branch=ft-diaryentries-160762213)](https://coveralls.io/github/nearjay06/Api_MyDiary?branch=ft-diaryentries-160762213)
 
-1.On Pivotal Tracker, create user stories to setup and test API endpoints that do the following using data structures
--Get all diary entries.
--Get a specific diary entry.
--Add an entry
--Modify an entry.
+[![Maintainability](https://api.codeclimate.com/v1/badges/4ccea315d24e60c9da7d/maintainability)](https://codeclimate.com/github/nearjay06/Api_MyDiary/maintainability)
 
-2.Version your API using url versioning starting, with the letter “v”. A simple ordinal number would be appropriate and avoid dot notation such as 2.5. An example of this will be : https://somewebapp.com/api/v1/users.
+
+
+1.On Pivotal Tracker, create user stories to setup and test API endpoints that:
+-get all diary entries,get a specific diary entry,add an entry,modify an entry.
+
+2.Version your API using url versioning starting, with the letter “v”. 
 
 3.Using separate branches for each feature, create version 1 (v1) of your RESTful API to power front-end pages
 
 4.Write tests for the API endpoints
-Ensure to test all endpoints and see that they work using Postman.
+
 5.Integrate TravisCI for Continuous Integration in your repository (with ReadMe badge).
+
 6.Integrate test coverage reporting (e.g. Coveralls) with badge in the ReadMe.
+
 7.Obtain CI badges (e.g. from Code Climate and Coveralls) and add to ReadMe.
+
 8.Ensure the app gets hosted on Heroku.
 
 
