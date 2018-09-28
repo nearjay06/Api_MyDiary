@@ -9,7 +9,6 @@ install:
   - pip install overalls
 
 script:
-  - coverage run --source=app
   - coverage run -m pytest
   - coverage report -m
 
