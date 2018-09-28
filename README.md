@@ -2,7 +2,7 @@
 
 
 the badge number coverall
-[![Coverage Status](https://coveralls.io/repos/github/nearjay06/Api_MyDiary/badge.svg)](https://coveralls.io/github/nearjay06/Api_MyDiary)
+[![Coverage Status](https://coveralls.io/repos/github/nearjay06/Api_MyDiary/badge.svg?branch=ft-diaryentries-160762213)](https://coveralls.io/github/nearjay06/Api_MyDiary?branch=ft-diaryentries-160762213)
 
 1.On Pivotal Tracker, create user stories to setup and test API endpoints that do the following using data structures
 -Get all diary entries.
