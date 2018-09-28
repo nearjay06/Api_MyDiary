@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/nearjay06/Api_MyDiary.svg?branch=master)](https://travis-ci.org/nearjay06/Api_MyDiary)
 
+
+the badge number coverall
+[![Coverage Status](https://coveralls.io/repos/github/nearjay06/Api_MyDiary/badge.svg)](https://coveralls.io/github/nearjay06/Api_MyDiary)
+
 1.On Pivotal Tracker, create user stories to setup and test API endpoints that do the following using data structures
 -Get all diary entries.
 -Get a specific diary entry.
