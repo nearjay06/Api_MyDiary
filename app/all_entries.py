@@ -4,12 +4,10 @@ app = Flask(__name__)
 
 entries =[ ]
 
-#to fetch all diary entries i.e GET/entries
 @app.route("/api/v1/entries/", methods=['GET'])
 def get_all_entries():
  return jsonify({'entries': entries})
 
-#to create a diary entry i.e POST/entries
 @app.route("/api/v1/entries/", methods=['POST'])
 def create_entry():
  if not request.json or not 'name' in request.json:
@@ -23,7 +21,6 @@ def create_entry():
  return jsonify({'entry':entry}),201
 
 
-#to fetch a specific diary entry i.e GET/entries/<entry id>
 @app.route("/api/v1/entries/<id>", methods=['GET'])
 def get_entry(id):
   for entry in entries:
@@ -33,7 +30,6 @@ def get_entry(id):
   return jsonify ({'message':'entry not found'})
  
 
-#to modify a diary entry i.e PUT/entries/<entryId>
 @app.route("/api/v1/entries/<id>", methods=['PUT'])
 def modify_entry(id):
     request_data = request.get_json()
