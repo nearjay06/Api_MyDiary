@@ -4,7 +4,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/4ccea315d24e60c9da7d/maintainability)](https://codeclimate.com/github/nearjay06/Api_MyDiary/maintainability)
 
-
+  
 
 1.On Pivotal Tracker, create user stories to setup and test API endpoints that:
 -get all diary entries,get a specific diary entry,add an entry,modify an entry.
@@ -38,3 +38,8 @@ Then cd Scripts
        activate
        cd..
        cd
+   To get my "app folder"
+   After entering the virtual env,type:
+   cd../..
+   ls
+   cd app
